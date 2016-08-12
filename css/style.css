@@ -1,0 +1,11 @@
+.header{
+	background:#eceef4;
+	height: 63px;
+}
+.logo{
+	height: 217px;
+	border-bottom: 1px solid #eceef4;
+}
+body{
+	margin: 0px;
+}
