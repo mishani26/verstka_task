@@ -1,11 +1,35 @@
-.header{
+.head{
 	background:#eceef4;
 	height: 63px;
 }
 .logo{
-	height: 217px;
+	height: 220px;
 	border-bottom: 1px solid #eceef4;
 }
-body{
-	margin: 0px;
+.btn{
+	color: #6d6e71;
+	margin-top: 16px;
+}
+.soc{
+	height: 63px;
+	position: relative;
+	 text-align: right;
+}
+.soc a:first-child {
+	border-left: 1px solid #dee0e6;
+}
+.soc a{
+	padding: 20px;
+	border-right: 1px solid #dee0e6;
+}
+.col-md-6{
+	position: relative;
+	text-align: right;
+}
+.log{
+	margin-right: 40px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	height: 96px;
+    width: 400px;
 }
