@@ -3,42 +3,62 @@ body{
 	font-family: 'OpenSans';
 	margin: 0px;
 }
+.butt{
+	color: #6d6e71; /* цвет текста */
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	user-select: none; /* убирать выделение текста */
+	background: white; /* фон кнопки */
+	padding: 10px 15px 10px 5px; /* отступ от текста */
+	outline: none; /* убирать контур в Mozilla */
+	border-radius: 7px;
+}
+.butts{
+	margin-left: 20%;
+width: 30%;
+}
 .head{
 	background:#eceef4;
 	height: 63px;
 }
+.head div{
+	display:inline-block;
+	
+}
+.soc{
+	width: 30%;
+	position: relative;
+	text-align: right;
+	display:inline-block;
+}
+
+.soc div{
+	height: 33px;
+	padding: 15px;
+	border-right: 1px solid #dee0e6;
+}
+.soc div:first-child {
+	border-left: 1px solid #dee0e6;
+}
 .logo{
 	height: 220px;
 	border-bottom: 1px solid #eceef4;
+	display:inline-block;
 }
-.btn{
-	color: #6d6e71;
-	margin-top: 16px;
+.logdiv{
+	width: 50%;
 }
-.soc{
-	height: 63px;
-	position: relative;
-	text-align: right;
-}
-.soc a:first-child {
-	border-left: 1px solid #dee0e6;
-}
-.soc a{
-	padding: 20px;
-	border-right: 1px solid #dee0e6;
-}
-.col-md-6{
-	position: relative;
-	text-align: right;
+.logdiv img{
+
 }
 .log{
-	margin-right: 40px;
+	margin-left: 200px;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	height: 96px;
 	width: 400px;
 }
 .contact{
+	width: 30%;
 	margin-top: 60px;
 	position: relative;
 	text-align: right;
