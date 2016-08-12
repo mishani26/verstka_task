@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400&subset=latin,cyrillic);
+body{
+	font-family: 'OpenSans';
+	margin: 0px;
+}
 .head{
 	background:#eceef4;
 	height: 63px;
@@ -13,7 +18,7 @@
 .soc{
 	height: 63px;
 	position: relative;
-	 text-align: right;
+	text-align: right;
 }
 .soc a:first-child {
 	border-left: 1px solid #dee0e6;
@@ -31,5 +36,29 @@
 	margin-top: 60px;
 	margin-bottom: 60px;
 	height: 96px;
-    width: 400px;
+	width: 400px;
+}
+.contact{
+	margin-top: 60px;
+	position: relative;
+	text-align: right;
+}
+.block {
+	margin-left: 70px;
+	border: 2px solid #dee0e6;
+	border-radius: 5px;
+	padding: 15px 25px 15px 25px;
+	position: relative;
+	width: 220px;
+}
+.block::before, .block::after {
+	content: ''; 
+	position: absolute;
+	left: 95px; bottom: -20px;
+	border: 10px solid transparent;
+	border-top: 10px solid #dee0e6;
+}
+.block::after {
+	border-top: 10px solid white;
+	bottom: -17px; 
 }

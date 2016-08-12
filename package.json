@@ -1,0 +1,26 @@
+{
+  "name": "verstka",
+  "version": "1.0.0",
+  "description": "my_task",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mishani26/verstka_task.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mishani26/verstka_task/issues"
+  },
+  "homepage": "https://github.com/mishani26/verstka_task#readme"
+}
