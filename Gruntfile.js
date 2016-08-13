@@ -1,11 +1,5 @@
 module.exports = function(grunt) {
     grunt.initConfig({
-        watch: {
-            sass: {
-                files: 'sass/style.scss',
-                tasks: ['sass']
-            }
-        },
         sass: {                              // Task
             dist: {                            // Target
                 options: {                       // Target options
@@ -13,7 +7,7 @@ module.exports = function(grunt) {
                     sourcemap: 'none'
                 },
                 files: {                         // Dictionary of files
-                    'css/new.css': 'sass/style.scss'       // 'destination': 'source
+                    'css/style.css': 'sass/style.scss'       // 'destination': 'source
                 }
             }
         }
@@ -21,5 +15,4 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.registerTask('default', ['sass']);
-    grunt.loadNpmTasks('grunt-contrib-watch')
 };

@@ -1,4 +1,116 @@
-$bodyColor: red;
-body {
- color: $bodyColor;
-}
+@import "settings/settings";
+@import "mixins/_mixinEm";
+@import "reset/_reset";
+@import "header/header";
+
+
+
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400&subset=latin,cyrillic);
+//body{
+// font-family: 'OpenSans';
+// margin: 0px;
+// color: #6d6e71; /* цвет текста */
+//}
+//.butt{
+// color: #6d6e71; /* цвет текста */
+// text-decoration: none; /* убирать подчёркивание у ссылок */
+// user-select: none; /* убирать выделение текста */
+// background: white; /* фон кнопки */
+// padding: 10px 15px 10px 5px; /* отступ от текста */
+// outline: none; /* убирать контур в Mozilla */
+// border-radius: 7px;
+//}
+//.butts{
+// margin-left: 20%;
+// width: 30%;
+//}
+//.head{
+// background:#eceef4;
+// height: 63px;
+//}
+//.head div{
+// display:inline-block;
+//
+//}
+//.soc{
+// width: 30%;
+// position: relative;
+// text-align: right;
+//
+//}
+//
+//.soc div{
+// height: 33px;
+// padding: 15px;
+// border-right: 1px solid #dee0e6;
+//}
+//.soc div:first-child {
+// border-left: 1px solid #dee0e6;
+//}
+//.logo{
+// height: 220px;
+// border-bottom: 1px solid #eceef4;
+//}
+//.logo div{display: inline-block;}
+//.log{
+// margin-top: 60px;
+// margin-bottom: 60px;
+// height: 96px;
+// width: 400px;
+//}
+//.contact{
+// position: absolute;
+// text-align: center;
+// right:20%;
+// margin-top: 60px;
+//}
+//.block {
+// color: #6d6e71;
+// margin-left: 70px;
+// margin-bottom: 10px;
+// border: 2px solid #dee0e6;
+// border-radius: 5px;
+// padding: 15px 25px 15px 25px;
+// position: relative;
+//}
+//.block::before, .block::after {
+// content: '';
+// position: absolute;
+// left: 95px; bottom: -20px;
+// border: 10px solid transparent;
+// border-top: 10px solid #dee0e6;
+//}
+//.block::after {
+// border-top: 10px solid white;
+// bottom: -17px;
+//}
+//.icons{
+// margin-left: 50px;
+//}
+//.icons a{
+// padding-right: 20px;
+// padding-left: 20px;
+// padding-top: 15px
+//}
+//.icons a:nth-child(2){
+// border-right: 1px solid #bcbec3;
+// border-left: 1px solid #bcbec3;
+//}
+//.navsrch div{
+// margin-top: 23px;
+// display:inline-block;
+//}
+//.nav a{
+// color: #6d6e71;
+// padding: 35px 30px 35px 30px;
+// border-left: 1px solid #eceef4;
+// text-decoration: none;
+//}
+//.srch input{
+// color: #6d6e71;
+// border: none;
+// padding-left: 10px;
+//}
+//.srch a{
+// margin-top: 5px;
+//}
