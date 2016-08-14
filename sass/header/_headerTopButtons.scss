@@ -1,0 +1,13 @@
+&-top-buttons{
+margin-left: 20%;
+width: 30%;
+}
+&-top-buttons a{
+color: #6d6e71; /* цвет текста */
+text-decoration: none; /* убирать подчёркивание у ссылок */
+user-select: none; /* убирать выделение текста */
+background: white; /* фон кнопки */
+padding: 10px 15px 10px 5px; /* отступ от текста */
+outline: none; /* убирать контур в Mozilla */
+border-radius: 7px;
+}

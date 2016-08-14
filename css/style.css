@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td,
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
@@ -59,6 +60,30 @@ blockquote, q {
   width: 400px;
 }
 
+.header-top-buttons {
+  margin-left: 20%;
+  width: 30%;
+}
+.header-top-buttons a {
+  color: #6d6e71;
+  /* ╤Ж╨▓╨╡╤В ╤В╨╡╨║╤Б╤В╨░ */
+  text-decoration: none;
+  /* ╤Г╨▒╨╕╤А╨░╤В╤М ╨┐╨╛╨┤╤З╤С╤А╨║╨╕╨▓╨░╨╜╨╕╨╡ ╤Г ╤Б╤Б╤Л╨╗╨╛╨║ */
+  user-select: none;
+  /* ╤Г╨▒╨╕╤А╨░╤В╤М ╨▓╤Л╨┤╨╡╨╗╨╡╨╜╨╕╨╡ ╤В╨╡╨║╤Б╤В╨░ */
+  background: white;
+  /* ╤Д╨╛╨╜ ╨║╨╜╨╛╨┐╨║╨╕ */
+  padding: 10px 15px 10px 5px;
+  /* ╨╛╤В╤Б╤В╤Г╨┐ ╨╛╤В ╤В╨╡╨║╤Б╤В╨░ */
+  outline: none;
+  /* ╤Г╨▒╨╕╤А╨░╤В╤М ╨║╨╛╨╜╤В╤Г╤А ╨▓ Mozilla */
+  border-radius: 7px;
+}
+
+.header-top div {
+  margin-top: 0.5em;
+}
+
 .header-top {
   background: #eceef4;
   height: 63px;
@@ -70,4 +95,8 @@ blockquote, q {
 
 ul li {
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
 }
