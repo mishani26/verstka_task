@@ -1,0 +1,18 @@
+.&-nav-srch{
+ margin-top: 23px;
+display:inline-block;
+}
+.&-nav a{
+ color: #6d6e71;
+ padding: 35px 30px 35px 30px;
+ border-left: 1px solid #eceef4;
+ text-decoration: none;
+}
+.&-srch input{
+ color: #6d6e71;
+ border: none;
+ padding-left: 10px;
+}
+.&-srch a{
+ margin-top: 5px;
+}

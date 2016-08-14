@@ -52,14 +52,6 @@ blockquote, q {
 .header-inner {
   padding: 0.75em 0 0.5em 0;
 }
-
-.header-logo-img {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  height: 96px;
-  width: 400px;
-}
-
 .header-top-buttons {
   margin-left: 20%;
   width: 30%;
@@ -79,9 +71,84 @@ blockquote, q {
   /* ╤Г╨▒╨╕╤А╨░╤В╤М ╨║╨╛╨╜╤В╤Г╤А ╨▓ Mozilla */
   border-radius: 7px;
 }
-
-.header-top div {
-  margin-top: 0.5em;
+.header-logo-logo-img {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 96px;
+  width: 400px;
+}
+.header-logo .header-logo-contacts {
+  position: absolute;
+  text-align: center;
+  right: 20%;
+  margin-top: 60px;
+}
+.header-logo .block {
+  color: #6d6e71;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  border: 2px solid #dee0e6;
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+  position: relative;
+}
+.header-logo .block::before, .header-logo .block::after {
+  content: '';
+  position: absolute;
+  left: 95px;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #dee0e6;
+}
+.header-logo .block::after {
+  border-top: 10px solid white;
+  bottom: -17px;
+}
+.header-logo .header-logo-contacts-icons {
+  margin-left: 4.5em;
+}
+.header-logo .header-logo-contacts-icons li {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.header-logo .header-logo-contacts-icons li:nth-child(2) {
+  border-right: 1px solid #bcbec3;
+  border-left: 1px solid #bcbec3;
+}
+.header-logo {
+  height: 220px;
+  border-bottom: 1px solid #eceef4;
+}
+.header-top-social {
+  width: 30%;
+  position: relative;
+  text-align: right;
+}
+.header-top-social div {
+  padding: 15px 15px 10px 15px;
+  border-right: 1px solid #dee0e6;
+}
+.header-top-social li:first-child div {
+  border-left: 1px solid #dee0e6;
+}
+.header-nav-srch div {
+  margin-top: 1.2em;
+  display: inline-block;
+}
+.header-nav a {
+  color: #6d6e71;
+  padding: 35px 30px 35px 30px;
+  border-left: 1px solid #eceef4;
+  text-decoration: none;
+}
+.header-srch input {
+  color: #6d6e71;
+  border: none;
+  padding-left: 10px;
+}
+.header-srch a {
+  margin-top: 5px;
 }
 
 .header-top {

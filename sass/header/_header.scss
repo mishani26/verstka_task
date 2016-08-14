@@ -1,14 +1,9 @@
 .header {
   @import "headerInner";
-}
-.header {
-  @import "headerLogo";
-}
-.header {
-  @import "headerTopButtons";
-}
-.header-top div{
-	margin-top:0.5em;
+  @import "Top/headerTopButtons";
+  @import "Logo/headerLogo";
+  @import "Top/headerTopSocial";
+  @import "headerNavSrch";
 }
 .header-top{
 	background:#eceef4;

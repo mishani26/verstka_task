@@ -1,0 +1,12 @@
+&-top-social{
+ width: 30%;
+position: relative;
+text-align: right;
+}
+&-top-social div{
+padding: 15px 15px 10px 15px;
+border-right: 1px solid #dee0e6;
+}
+&-top-social li:first-child div{
+ border-left: 1px solid #dee0e6;
+}
