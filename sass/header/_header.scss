@@ -1,3 +1,16 @@
 .header {
   @import "headerInner";
 }
+.header {
+  @import "headerLogo";
+}
+.header-top{
+	background:#eceef4;
+	height: 63px;
+}
+.inner div{
+	display:inline-block;
+}
+ul li{
+	display:inline-block;
+}

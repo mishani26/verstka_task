@@ -1,0 +1,91 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-blog {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px -65px;
+  width: 18px;
+  height: 19px;
+}
+.icon-f {
+  background-image: url(../images/spritesheet.png);
+  background-position: -83px 0px;
+  width: 21px;
+  height: 21px;
+}
+.icon-g {
+  background-image: url(../images/spritesheet.png);
+  background-position: -58px -21px;
+  width: 23px;
+  height: 21px;
+}
+.icon-i {
+  background-image: url(../images/spritesheet.png);
+  background-position: -58px -42px;
+  width: 21px;
+  height: 21px;
+}
+.icon-jobs {
+  background-image: url(../images/spritesheet.png);
+  background-position: -83px -21px;
+  width: 18px;
+  height: 22px;
+}
+.icon-lang {
+  background-image: url(../images/spritesheet.png);
+  background-position: -83px -43px;
+  width: 18px;
+  height: 19px;
+}
+.icon-mail {
+  background-image: url(../images/spritesheet.png);
+  background-position: -28px 0px;
+  width: 30px;
+  height: 23px;
+}
+.icon-point {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px -31px;
+  width: 25px;
+  height: 34px;
+}
+.icon-srch {
+  background-image: url(../images/spritesheet.png);
+  background-position: -28px -23px;
+  width: 25px;
+  height: 25px;
+}
+.icon-sup {
+  background-image: url(../images/spritesheet.png);
+  background-position: -18px -65px;
+  width: 17px;
+  height: 18px;
+}
+.icon-t {
+  background-image: url(../images/spritesheet.png);
+  background-position: -58px 0px;
+  width: 25px;
+  height: 21px;
+}
+.icon-telephone {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px 0px;
+  width: 28px;
+  height: 31px;
+  border: none;
+}

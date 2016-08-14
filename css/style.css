@@ -51,3 +51,23 @@ blockquote, q {
 .header-inner {
   padding: 0.75em 0 0.5em 0;
 }
+
+.header-logo-img {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: 96px;
+  width: 400px;
+}
+
+.header-top {
+  background: #eceef4;
+  height: 63px;
+}
+
+.inner div {
+  display: inline-block;
+}
+
+ul li {
+  display: inline-block;
+}
