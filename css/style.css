@@ -135,6 +135,7 @@ blockquote, q {
 .header-nav-srch div {
   margin-top: 1.2em;
   display: inline-block;
+  height: 50px;
 }
 .header-nav a {
   color: #6d6e71;
@@ -160,10 +161,15 @@ blockquote, q {
   display: inline-block;
 }
 
-ul li {
-  display: inline-block;
+.img {
+  height: 885px;
+  background: url(../images/img.gif) no-repeat center;
 }
 
 a {
   text-decoration: none;
+}
+
+ul li {
+  display: inline-block;
 }

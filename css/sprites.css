@@ -16,86 +16,107 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.icon-arrow {
+  background-image: url(../images/spritesheet.png);
+  background-position: 0px 0px;
+  width: 24px;
+  height: 40px;
+  display: block;
+}
 .icon-blog {
   background-image: url(../images/spritesheet.png);
-  background-position: 0px -65px;
+  background-position: -83px -71px;
   width: 18px;
   height: 19px;
   display: block;
 }
 .icon-f {
   background-image: url(../images/spritesheet.png);
-  background-position: -83px 0px;
+  background-position: -23px -71px;
   width: 21px;
   height: 21px;
   display: block;
 }
 .icon-g {
   background-image: url(../images/spritesheet.png);
-  background-position: -58px -21px;
+  background-position: 0px -71px;
   width: 23px;
   height: 21px;
   display: block;
 }
 .icon-i {
   background-image: url(../images/spritesheet.png);
-  background-position: -58px -42px;
+  background-position: -44px -71px;
   width: 21px;
   height: 21px;
   display: block;
 }
 .icon-jobs {
   background-image: url(../images/spritesheet.png);
-  background-position: -83px -21px;
+  background-position: 0px -92px;
   width: 18px;
   height: 22px;
   display: block;
 }
 .icon-lang {
   background-image: url(../images/spritesheet.png);
-  background-position: -83px -43px;
+  background-position: -65px -71px;
   width: 18px;
   height: 19px;
   display: block;
 }
+.icon-like-green {
+  background-image: url(../images/spritesheet.png);
+  background-position: -57px 0px;
+  width: 32px;
+  height: 28px;
+  display: block;
+}
+.icon-like-orange {
+  background-image: url(../images/spritesheet.png);
+  background-position: -24px 0px;
+  width: 33px;
+  height: 28px;
+  display: block;
+}
 .icon-mail {
   background-image: url(../images/spritesheet.png);
-  background-position: -28px 0px;
+  background-position: -28px -40px;
   width: 30px;
   height: 23px;
   display: block;
 }
 .icon-point {
   background-image: url(../images/spritesheet.png);
-  background-position: 0px -31px;
+  background-position: -89px 0px;
   width: 25px;
   height: 34px;
   display: block;
 }
 .icon-srch {
   background-image: url(../images/spritesheet.png);
-  background-position: -28px -23px;
+  background-position: -89px -34px;
   width: 25px;
   height: 25px;
   display: block;
 }
 .icon-sup {
   background-image: url(../images/spritesheet.png);
-  background-position: -18px -65px;
+  background-position: -18px -92px;
   width: 17px;
   height: 18px;
   display: block;
 }
 .icon-t {
   background-image: url(../images/spritesheet.png);
-  background-position: -58px 0px;
+  background-position: -58px -40px;
   width: 25px;
   height: 21px;
   display: block;
 }
 .icon-telephone {
   background-image: url(../images/spritesheet.png);
-  background-position: 0px 0px;
+  background-position: 0px -40px;
   width: 28px;
   height: 31px;
   display: block;
